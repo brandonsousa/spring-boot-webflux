@@ -1,6 +1,11 @@
 # spring-boot-webflux
 Reactive application with springboot webflux
 
+## To run
+This application can be run via docker-compose.
+```bash
+    docker-compose up -d
+```
 
 ### Dependencies and tools
 This project uses the following dependencies and tools:
@@ -11,3 +16,4 @@ This project uses the following dependencies and tools:
  - [ReactiveMongo](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-mongodb-reactive)
  - [Springboot webflux](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-webflux)
  - [Reactor test](https://projectreactor.io/docs/core/release/reference/)
+ - [Docker](https://www.docker.com/products/docker-desktop)

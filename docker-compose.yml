@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo
+    container_name: spring-boot-webflux-db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=admin
+      - MONGO_INITDB_DATABASE=sbw #spring-boot-webflux
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - "27017:27017"
+
+  app:
+    build: .
+    container_name: spring-boot-webflux
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
