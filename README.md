@@ -7,6 +7,12 @@ This application can be run via docker-compose.
     docker-compose up -d
 ```
 
+
+## Swagger
+```bash
+    http://localhost:8080/webjars/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
+```
+
 ### Dependencies and tools
 This project uses the following dependencies and tools:
  - [Spring Boot 2.6.3](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.6.3&packaging=jar&jvmVersion=17&groupId=io.github.brandonsousa&artifactId=spring-boot-webflux&name=spring-boot-webflux&description=Reactive%20application%20with%20springboot%20webflux&packageName=io.github.brandonsousa.spring-boot-webflux&dependencies=webflux,data-mongodb-reactive,lombok)
