@@ -31,7 +31,7 @@ public class EmployeeControllerTest {
     @Test
     void storeEmployee() {
         Employee employee = new Employee();
-        employee.setUuid(UUID.randomUUID());
+        employee.setUuid(UUID.randomUUID().toString());
         employee.setFirstName("Brandon");
         employee.setLastName("Sousa");
         employee.setEmail("brandon@email.com");
