@@ -17,3 +17,5 @@ This project uses the following dependencies and tools:
  - [Springboot webflux](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-webflux)
  - [Reactor test](https://projectreactor.io/docs/core/release/reference/)
  - [Docker](https://www.docker.com/products/docker-desktop)
+ - [Jaxb API 2.3.1](https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api/2.3.1)
+ - [Javax Servlet 2.5](https://mvnrepository.com/artifact/javax.servlet/servlet-api/2.5)
